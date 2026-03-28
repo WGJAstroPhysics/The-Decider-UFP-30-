@@ -1,0 +1,8 @@
+Term_ID,i (Mass),j (Charge),k (Dist^-1),Coefficient (aijk​),Category
+1,1,0,2,6.67430e-11,Newtonian Base
+2,0,2,2,8.98755e+09,Coulomb Base
+3,1,0,3,1.34521e-15,Relativistic Correction (1st)
+4,2,0,4,4.89201e-22,Relativistic Correction (2nd)
+5,1,1,2,2.10394e-18,G-EM Coupling Term
+6,0,0,15,1.05457e-28,Quantum Fluctuation Layer
+7,0,0,30,6.62607e-34,Planck Singularity Shield
