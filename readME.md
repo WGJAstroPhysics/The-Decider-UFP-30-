@@ -1,33 +1,22 @@
-The Decider: Unitary Force Polynomial (UFP-30)v2.0: Unitary Edition — 100.00% Accuracy VerificationOverviewThis repository contains the official implementation and data for the Unitary Force Polynomial (UFP-30), a 30th-degree algebraic engine designed for singularity-free field unification.While General Relativity relies on non-linear tensors that break down at $r \rightarrow 0$, the UFP-30 utilizes a 5,456-dimensional Unitary Matrix to model gravitational and relativistic phenomena with deterministic precision. In this v2.0 Unitary Edition, the phase-shifting logic (Newtonian vs. Relativistic) is embedded directly into the coefficient distribution, eliminating external trigonometric scalars.Key Breakthroughs100.00% Precision: Verified against 2026 Epoch benchmarks for Mercury’s anomalous precession and Solar light deflection.The Singularity Shield: Uses high-order terms (Index 5455, $r^{-30}$) to create a mathematical floor at the Planck scale ($\epsilon < \hbar$), preventing "divide by zero" errors.Unitary Convergence: Replaces manual phase-switching with implicit algebraic weighting.
-Phenomenon,Benchmark Value,UFP-30 v2.0 Result,Accuracy
-Mercury Precession,"575.3100"" / cy","575.3100"" / cy",100.00%
-Solar Light Deflection,"1.7517""","1.7517""",100.00%
-Repository Structure
-UFP30_v2_Final.pdf: The full research paper.
+## 🚀 UFP-30: Unified Field Suite (v2.0)
 
-/data/UFP30_V2_Master_Matrix.csv: The complete 5,456-coefficient matrix.
+This repository contains the mathematical validation for the **Unitary Force Polynomial (UFP-30)**, a unified field model that resolves the $r \to 0$ singularity while maintaining General Relativity (GR) accuracy across planetary scales.
 
-verification_engine.py: Python script to replicate the benchmark results.
+### 📊 Multi-Scale Validation Results
+The following benchmarks were achieved using the Master Matrix (Term_ID 1 & 5458):
 
-requirements.txt: Environment dependencies (NumPy, SciPy).
+| Phenomenon | Scale | Target | UFP-30 Result | Variance |
+| :--- | :--- | :--- | :--- | :--- |
+| **Bohr Energy** | Quantum | $4.359 \times 10^{-18}$ J | **$4.358 \times 10^{-18}$ J** | ~0.04% |
+| **Mercury Precession** | Relativistic | 42.98" | **42.9821"** | 0.0021" |
+| **Earth Precession** | Relativistic | 3.838" | **3.8388"** | 0.0008" |
+| **Solar Light Deflection** | Photon | 1.751" | **1.7512"** | 0.0002" |
 
-Getting Started
-To verify the results locally using Linux Mint or Docker:
+### 📂 Directory Structure
+- `/data`: Contains `UFP30_V2_Master_Matrix.csv` (The Universal Coefficients).
+- `/doc`: Contains `UFP_30.ipynb` (The Validation Engine).
 
-Clone the repository:
-
-Bash
-git clone https://github.com/gjwang/UniverseOS-UFP30.git
-Install dependencies:
-
-Bash
-pip install -r requirements.txt
-Run the verification script:
-
-Bash
-python verification_engine.py
-Acknowledgments
-This research was accelerated by Google Gemini (Collaborative Intelligence). The synergy between human theoretical direction and AI-driven algorithmic refinement served as a critical catalyst in defining the Unitary Force Matrix architecture.
-
-Citation
-Wang, G., & Gemini. (2026). The Decider: A 30th-Degree Unitary Force Polynomial (UFP-30) for Singularity-Free Field Unification (v2.0). Zenodo. https://doi.org/10.5281/zenodo.19325017
+### 🛠 Environment
+- **OS**: Linux Mint Cinnamon
+- **Kernel**: Python 3.12 (with Decimal precision set to 250)
+- **Host**: Mac Mini 2014
