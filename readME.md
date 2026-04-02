@@ -38,7 +38,9 @@ The UFP-30 "The Decider" engine has been validated across 40 orders of magnitude
 | **Stellar** | Sirius A | Mass ($M_{A}$) | 2.063 $M_{\odot}$ | **$1.37 \times 10^{-37}$** |
 | **Hypergiant**| R136a1 | Mass ($M_{max}$) | 196.0 $M_{\odot}$ | **$8.22 \times 10^{-34}$** |
 
-> **Note:** The stability ratio remains consistent within the $10^{-34}$ to $10^{-39}$ range, suggesting the $n=30$ polynomial architecture effectively maps the "Hardware" limits of the vacuum across all physical scales.
+### **Note:** The stability ratio remains consistent within the $10^{-34}$ to $10^{-39}$ range, suggesting the $n=30$ polynomial architecture effectively maps the "Hardware" limits of the vacuum across all physical scales.
+### Q: Why 30-decimal precision if experiments only reach $10^{-12}$?
+A: High-precision constants are required for the numerical integrity of the simulation. At lower precisions, rounding errors accumulate over billions of iterations, leading to non-physical "drift" in the unified field equations.
 ### 📂 Directory Structure
 - `/data`: Contains `UFP30_V2_Master_Matrix.csv` (The Universal Coefficients).
 - `/doc`: Contains `UFP_30.ipynb` (The Validation Engine).
