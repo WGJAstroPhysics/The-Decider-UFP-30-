@@ -3,6 +3,8 @@
 
 This repository contains the mathematical validation for the **Unitary Force Polynomial (UFP-30)**, a unified field model that resolves the $r \to 0$ singularity while maintaining General Relativity (GR) accuracy across planetary scales.
 
+### The Python codes and Master cofficents can be viewed or download to test  @ https://github.com/WGJAstroPhysics/The-Decider-UFP-30- 
+
 ### 📊 Multi-Scale Validation Results
 The following benchmarks were achieved using the Master Matrix (Term_ID 1 & 5458):
 
