@@ -1,9 +1,11 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19361736.svg)](https://doi.org/10.5281/zenodo.19361736)
 ## 🚀 UFP-30: Unified Field Suite (v2.0)
 
-This repository contains the mathematical validation for the **Unitary Force Polynomial (UFP-30)**, a unified field model that resolves the $r \to 0$ singularity while maintaining General Relativity (GR) accuracy across planetary scales.
+### Why "The Decider"? The UFP-30 is a deterministic engine. It operates on the principle that quantum-scale interactions are governed by high-degree polynomial stability rather than purely probabilistic outcomes. The engine "decides" the local gravitational and electromagnetic constants by solving for the 30th-degree equilibrium.
 
-### The Python codes and Master cofficents can be viewed or download to test  @ https://github.com/WGJAstroPhysics/The-Decider-UFP-30- 
+### Testing and Validation: > The source code, Docker environment, and high-precision testing suites for the UFP-30 are maintained at:
+https://github.com/WGJAstroPhysics/The-Decider-UFP-30-
+Researchers are encouraged to clone the repository to reproduce the Stellar Stress Test results. 
 
 ### 📊 Multi-Scale Validation Results
 The following benchmarks were achieved using the Master Matrix (Term_ID 1 & 5458):
